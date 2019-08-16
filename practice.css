@@ -4,17 +4,21 @@ html,body {
   margin: 0;
   background-color: #f4f4f4;
   width: 100%;
+  min-width: 1024px;
 }
 
+.wrapper {
+  overflow: hidden;
+}
 
 .container {
-  width: 80%;
-  margin: auto;
+  margin: 0;
   overflow: hidden;
 }
 
 .container h1 {
   display: inline-block;
+  margin-left: 80px;
 }
 
 ul {
@@ -35,10 +39,14 @@ ul {
   padding: 15px;
   background: #35424a;
   color: #ffffff;
-  margin-top: 10px;
+  margin-top: 7px;
   margin-bottom: 10px;
 }
 
+.dark h3,p {
+  padding: 2px 5px;
+  margin: 0;
+}
 
 header {
   background-color: #35424a;
@@ -82,6 +90,7 @@ header #branding h1 {
 header nav {
   float: right;
   margin-top: 10px;
+  margin-right: 80px;
 }
 
 header .highlight, header .current a {
@@ -113,11 +122,18 @@ header a:hover {
   font-size: 20px;
 }
 
+#showcase .container {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
 #newsletter {
   padding: 15px;
   color: #ffffff;
   background: #35424a;
   height: 50px;
+  padding-bottom: 50px
+  ma
 }
 
 #Newsletter h1 {
@@ -136,9 +152,10 @@ header a:hover {
   margin-top: 15px;
 }
 
+
 /* boxes */
 #boxes {
- margin: 60px 0;
+ margin: 60px 0px;
  background-color: #f4f4f4;
  width: 100%;
 }
@@ -153,7 +170,9 @@ header a:hover {
 
 #boxes .box  p {
   width: 100%;
+  top: 44%;
   margin-bottom: 50px;
+
 }
 
 #boxes h3 {
@@ -163,13 +182,14 @@ header a:hover {
 
 #boxes .box img {
   border-radius: 50%;
-  width: 300px;
-  height: 300px;
+
+  text-align: center;
 }
 
 #boxes .container {
-  margin: 0 30px;
+  margin: 0;
   width: 100%;
+  padding-left: 50px:
 }
 
 
@@ -180,10 +200,26 @@ aside#sidebar {
   margin-top: 10px;
 }
 
+aside#sidebar .quote input, aside#sidebar .quote textarea {
+  width: left;
+  padding: 5px;
+}
+
+
+
 /* main-col */
 article#main-col {
   float: left;
   width: 65%;
+}
+
+/* Services */
+ul#services li {
+  list-style: none;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom: 5px;
+  background: #e6e6e6;
 }
 
 footer {
@@ -192,4 +228,27 @@ footer {
   color: #ffffff;
   background-color: #e8491d;
   text-align: center;
+}
+
+/* タブレット向け */
+@media(max-width: 1040px) {
+
+#boxes .box {
+  margin: 12%;
+  width: 50%;
+
+}
+
+#boxes .box p,h3,a {
+  text-align: center;
+}
+
+#Newsletter h1,form,input[type="email"] {
+
+}
+}
+
+/* スマホ向け　*/
+@media (max-width:1040px) {
+
 }
