@@ -7,11 +7,6 @@ html,body {
   min-width: 1024px;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-}
-
 .button_1 {
   max-height: 38px;
   height: 100%;
@@ -32,6 +27,15 @@ ul {
 
 header .container {
   margin-left: 80px;
+}
+
+.container h1 {
+  float: left;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -61,6 +65,12 @@ header ul {
 header li {
   display: inline-block;
   padding: 0 20px 0 20px;
+
+}
+
+#branding .container {
+  display: flex;
+  justify-content: space-around;
 }
 
 header nav {
