@@ -1,0 +1,150 @@
+html,body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+  width: 100%;
+  min-width: 1024px;
+}
+
+header .container {
+  margin-left: 80px;
+}
+
+.container h1 {
+  float: left;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+#newsletter .button_1 {
+  max-height: 38px;
+  height: 100%;
+  background: #e8491d;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+
+ul#services li {
+  list-style: none;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom: 5px;
+  background: #e6e6e6;
+}
+
+header {
+  background-color: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  display: inline-block;
+  padding: 0 20px 0 20px;
+
+}
+
+#branding .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav {
+  font-size: large;
+  float: right;
+  margin-right: 30px;
+  padding-top: 10px;
+}
+
+header .highlight, header .current a {
+  color: #e8491d;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #cccccc;
+  font-weight: bold;
+}
+
+#newsletter .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#newsletter {
+  padding: 15px;
+  color: #ffffff;
+  background: #35424a;
+  max-height: 100px;
+  padding-bottom: 50px
+}
+
+#Newsletter .container h1 {
+  margin-right: 50px;
+
+}
+
+#newsletter form {
+
+  margin-top: 0;
+}
+
+#newsletter input[type="email"]{
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+  margin-top: 15px;
+}
+
+aside#sidebar {
+  float: right;
+  max-width: 250px;
+  width: 30%;
+  margin-top: 10px;
+}
+
+.quote input, aside#sidebar .quote textarea {
+  padding: 5px;
+}
+
+article#main-col {
+  width: 65%;
+}
+
+#main .container{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+footer {
+  padding: 20px;
+  margin-top: 100px;
+  color: #ffffff;
+  background-color: #e8491d;
+  text-align: center;
+}
