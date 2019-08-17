@@ -133,6 +133,12 @@ aside#sidebar {
 
 article#main-col {
   width: 65%;
+  display: flex;
+  flex-direction: column;
+}
+
+#main-col h1 {
+  font-size: 35px;
 }
 
 #main .container{
