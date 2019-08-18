@@ -142,6 +142,8 @@ header a:hover {
 /* boxes */
 #boxes {
  background-color: #f4f4f4;
+ max-width: 1240px;
+ width: 100%;
 }
 
 #boxes .box {
