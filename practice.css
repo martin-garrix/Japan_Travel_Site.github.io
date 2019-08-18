@@ -147,6 +147,9 @@ header a:hover {
 #boxes .box {
   text-align: center;
   margin-top: 100px;
+  max-width: 1240px;
+  width: 25%;
+  
 }
 
 #boxes .box  p {
