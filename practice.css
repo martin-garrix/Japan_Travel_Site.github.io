@@ -161,7 +161,9 @@ header a:hover {
 #boxes .box img {
   border-radius: 50%;
   max-width: 1240px;
-  width: 23%;
+  width: 100%;
+  max-height: 1240px;
+  height: 50%;
 }
 
 #boxes .container {
