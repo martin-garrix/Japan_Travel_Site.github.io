@@ -1,331 +1,35 @@
-html,body {
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 0;
-  margin: 0;
-  background-color: #f4f4f4;
-  width: 100%;
-  min-width: 1024px;
-}
-
-
-header .container {
-  margin-left: 80px;
-}
-
-.container h1 {
-  float: left;
-}
-
-ul {
-  margin: 0;
+.jumbotron {
   padding: 0;
 }
 
-.button_1 {
-  max-height: 38px;
-  height: 100%;
-  background: #e8491d;
-  border: 0;
-  padding-left: 20px;
-  padding-right: 20px;
-  color: #ffffff;
-}
-
-#sidebar .dark h3,p {
-  padding: 2px 5px;
-  margin: 0;
-}
-
-header {
-  background-color: #35424a;
-  color: #ffffff;
-  padding-top: 30px;
-  min-height: 70px;
-  border-bottom: #e8491d 3px solid;
-}
-
-header h1 {
-  margin: 0;
-}
-
-header a {
-  color: #ffffff;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 16px;
-}
-
-header ul {
-  margin: 0;
+.container-fluid {
   padding: 0;
 }
 
-header li {
-  display: inline-block;
-  padding: 0 20px 0 20px;
-
+.card-img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  padding-top 20px;
 }
 
-#branding .container {
-  display: flex;
-  justify-content: space-around;
-}
-
-header nav {
-  font-size: large;
-  float: right;
-  margin-right: 30px;
-  padding-top: 10px;
-}
-
-header .highlight, header .current a {
-  color: #e8491d;
-  font-weight: bold;
-}
-
-header a:hover {
-  color: #cccccc;
-  font-weight: bold;
-}
-
-/* showcase */
-#showcase .container{
-  min-height: 500px;
-  background: url('mig.jpg') no-repeat;
-  background-size: cover;
-  color: #ffffff;
+.card-img-overlay {
+  padding: 0;
+  top: calc(50% - 0.4rem);
   text-align: center;
+  color: white;
 }
 
-#showcase h2 {
-  font-size: 55px;
-  margin-top: 0;
-  padding-top: 100px;
-}
-
-#showcase p {
-  font-size: 20px;
-  padding: 0 100px;
-}
-
-/* newsletter */
-#newsletter .container {
-  display: flex;
-  justify-content: space-around;
-}
-
-#newsletter {
-  padding: 15px;
-  color: #ffffff;
-  background: #35424a;
-  max-height: 100px;
-  padding-bottom: 50px
-}
-
-#Newsletter .container h1 {
-  margin-right: 50px;
-
-}
-
-#newsletter form {
-  /*margin-top: 0;*/
-}
-
-#newsletter input[type="email"]{
-  padding: 4px;
-  height: 25px;
-  width: 250px;
-  margin-top: 15px;
-}
-
-
-/* boxes */
-#boxes {
- background-color: #f4f4f4;
-}
-
-#boxes .box {
-  text-align: center;
-  margin-top: 100px;
-}
-
-#boxes .box  p {
-  padding: 50px;
-}
-
-#boxes h3 {
-  font-size: 40px;
-  margin-top: 20px;
-}
-
-#boxes .box img {
+.logo {
   border-radius: 50%;
 }
 
-#boxes .container {
-  display: flex;
-  justify-content: space-around;
+.small {
+  text-align: center;
+  margin-bottom: 50px;
 }
 
-
-/* sidebar */
-aside#sidebar {
-  float: right;
-  width: 30%;
-  margin-top: 10px;
-}
-
-aside#sidebar .quote input, aside#sidebar .quote textarea {
-  padding: 5px;
-}
-
-
-
-/* main-col */
-article#main-col {
-  float: left;
-  width: 65%;
-}
-
-/* Services */
-ul#services li {
-  list-style: none;
-  padding: 20px;
-  border: #cccccc solid 1px;
-  margin-bottom: 5px;
-  background: #e6e6e6;
-}
-
-footer {
-  padding: 20px;
-  margin-top: 100px;
-  color: #ffffff;
-  background-color: #e8491d;
+.foot {
   text-align: center;
 }
 
-/* 480px〜599px：SP横
------------------------------- */
-@media screen and (min-width:480px) and (max-width:599px) {
-
-body {
-  max-width: 500px;
-  width: 100%;
-}
-
-header {
-  max-width: 500px;
-  width: 100%;
-}
-
-header .container {
-  display: flex;
-  flex-direction: column;
-}
-
-header .container h1,li {
-  text-align: center;
-}
-
-#showcase .container {
-  max-width: 500px;
-  width: 100%;
-  text-align: center;
-}
-
-#newsletter {
-  max-width: 500px;
-  width: 100%;
-}
-
-#newsletter .container {
-  max-width: 500px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
-#boxes .container {
-  max-width: 500px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-#boxes .box {
-  width: 100%;
-}
-
-
-footer {
-  max-width: 500px;
-  width: 100%;
-}
-
-/* 600px〜959px：タブレット
------------------------------- */
-@media screen and (min-width:600px) and (max-width:959px) {
-
-  header {
-    max-width: 700px;
-    width: 100%;
-  }
-
-  header .container {
-    display: flex;
-    flex-direction: row;
-  }
-
-  header .container h1,li {
-    text-align: center;
-  }
-
-  #showcase .container {
-    max-width: 700px;
-    width: 100%;
-    text-align: center;
-  }
-
-  #newsletter {
-    max-width: 700px;
-    width: 100%;
-  }
-
-  #newsletter .container {
-    max-width: 700px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-
-  #boxes .container {
-    max-width: 700px;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  #boxes .box {
-    width: 50%;
-  }
-
-  footer {
-    max-width: 700px;
-    width: 100%;
-  }
-
-}
-
-/* 960px〜1279px：小型PC
------------------------------- */
-@media screen and (min-width:960px) and (max-width:1279px) {
-
-}
-
-/* 1280px〜：大型PC
------------------------------- */
-@media screen and (min-width:1280px) {
-
-}
