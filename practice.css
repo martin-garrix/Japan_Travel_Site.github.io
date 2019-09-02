@@ -1,6 +1,6 @@
 .jumbotron {
-  margin: 0;
-  padding: 56px 0px;
+  max-width: 1280px;
+  width: 100%;
 }
 
 .container-fluid {
